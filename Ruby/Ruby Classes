@@ -1,0 +1,14 @@
+Competencies
+
+Everything is an object, everything has it own characteristics
+You can make new objects with their own properties by declaring new classes
+Instances are members of a certain class and have all the attributes and methods 
+Class methods vs Instance methods: class methods are called on a class, instance methods are called on the instance. Puppy.new vs fido.speak
+When declaring a class, you can give it instance methods to perform within the class declaration
+Special method: Initialize. Gives the class certain characteristics “right out of the box”
+Class attributes are declared in the “initialize” method
+
+
+Applications
+Design and define new objects
+Set attributes and methods for objects
