@@ -1,0 +1,38 @@
+Remember our zoo? 
+
+Let's fill it up.
+
+Declare an overarching class: 
+Class Animal
+
+  def breathe
+    puts "I am breathing"
+  end
+
+end
+
+
+Declare a child class: 
+Class Lion < Animal
+  
+  def roar
+    puts "ROAR!"
+  end
+
+end
+
+Create some instances of Animal and Lion with ".new"
+Add more methods, more child classes, etc.
+
+Initialize method: Special method that will load up certain attributes for the class instance
+Animal:
+def initialize(name)
+  @name = name
+end 
+
+Lion
+def initialize(name, feet)
+  super(name)
+  @feet = 4
+end
+
